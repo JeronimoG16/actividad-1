@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Baner superior -->
+    <header>
+        <div class="banner">
+            <img src="logo.png" alt="Logo de la tienda" class="logo">
+            <img src="banner.jpg" alt="Imagen de fondo" class="banner-img">
+        </div>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#nuestra-tienda">Nuestra Tienda On-line</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contáctenos</a></li>
+            <li><a href="#cotizacion">Solicitud de Cotización</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección Nuestra Tienda On-line -->
+    <section id="nuestra-tienda">
+        <h2>Nuestra Tienda On-line</h2>
+        <p>Información sobre la tienda y presentación de los integrantes del grupo.</p>
+        <!-- Aquí puedes agregar más detalles sobre los integrantes -->
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <p>Descripción del primer servicio ofrecido.</p>
+        <p>Descripción del segundo servicio ofrecido.</p>
+    </section>
+
+    <!-- Sección Contáctenos -->
+    <section id="contacto">
+        <h2>Contáctenos</h2>
+        <p>WhatsApp: +57 123 456 7890</p>
+        <p>Celular: +57 987 654 3210</p>
+        <p>Dirección: Calle Falsa 123, Medellín, Colombia</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799147605!2d-74.2598756875!3d40.697670063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c250b8f1b1b1b1%3A0x1b1b1b1b1b1b1b1b!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2s!4v1616161616161!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Sección Solicitud de Cotización -->
+    <section id="cotizacion">
+        <h2>Solicitud de Cotización</h2>
+        <form action="submit-quote.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
